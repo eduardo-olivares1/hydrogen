@@ -4,4 +4,4 @@
 * Eduardo and Than will be the backend/JS/PHP team
 
 
-*Travis wrote this
+*Travis wrote this correctly this time
