@@ -30,7 +30,7 @@ _NOTE: please use Bootstrap or the equivalent to do the project.  Your final pro
 * Contact information
 * Some fake contact information - snail mail address, as well as an email address.
 
-Your pages should use:
+#### Your pages should use:
 * HTML - please use either Notepad or Textpad to create these pages.
 * CSS
 * Use one external style sheet that describes the rules for H1, H2, H3, background, and links.
