@@ -3,7 +3,8 @@
 ## Requirements:
 
 Your final project will involve creating an online store front.  
-Your website should have a menu that links to the following pages/sections (containers) - 
+Your website should have a menu that links to the following pages/sections (containers)
+
 _NOTE: please use Bootstrap or the equivalent to do the project.  Your final product should be mobile friendly._
 
 ### The main page
