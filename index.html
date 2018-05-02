@@ -55,10 +55,13 @@
 
 
 <div class="container">
-
-
-
+<div class="row">
+    <div id="time" class="col-md-12">
+    <h2 class="text-center">What are you waiting for?</h2>
+    </div>
 </div>
+</div>
+
 <script>
 /*
 var printTime = setInterval(Timer, 1000);
@@ -66,7 +69,7 @@ var index = 0;
 
 function Timer() {
     var d = new Date();
-    document.getElementById("demo").innerHTML = "<h1>" + d.toLocaleDateString() + " "  + d.toLocaleTimeString() + "</h1>";
+    document.getElementById("time").innerHTML = "<h1>" + d.toLocaleDateString() + " "  + d.toLocaleTimeString() + "</h1>";
     var s = d.getSeconds();
     if (s % 5 == 0 || s ==  0 ){
     index += 1
