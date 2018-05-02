@@ -3,3 +3,6 @@
     font-size: 30pt;
 }
 
+li {
+border-right:1px solid #bbb;
+}
