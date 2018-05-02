@@ -8,6 +8,6 @@ border-right:1px solid #bbb;
 font-weight:bold;
 }
 
-li lastchild {
+li:last-child {
     border-right:none;
 }
