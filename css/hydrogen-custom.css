@@ -3,6 +3,6 @@
     font-size: 30pt;
 }
 
-#collapsedNav {
+.nav navbar-nav {
     text-align:center;
 }
