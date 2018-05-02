@@ -5,5 +5,9 @@
 
 li {
 border-right:1px solid #bbb;
-    font-weight:bold;
+font-weight:bold;
+}
+
+li lastchild {
+    border-right:none;
 }
