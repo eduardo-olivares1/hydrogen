@@ -3,6 +3,10 @@
     font-size: 30pt;
 }
 
+.navbar {
+    margin-bottom: 0;
+}
+
 @media screen and (min-width:768px){
 .navbar-nav {
     text-align: center;
@@ -13,4 +17,18 @@
     float:none;
 }
 }
+
+
+.jumbotron {
+    background-image: url("http://www.adrikaservices.com/sites/default/files/language-translations_0.jpg");
+    background-color: #17234E;
+    margin-bottom: 0;`enter code here`
+    min-height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+
 
