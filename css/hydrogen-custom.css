@@ -3,7 +3,7 @@
     font-size: 30pt;
 }
 
-
+@media screen and (min-width:768px){
 .navbar .navbar-nav {
     display:inline-block;
     float: none;
@@ -12,4 +12,5 @@
     text-align:center;
 }
 
+}
 
