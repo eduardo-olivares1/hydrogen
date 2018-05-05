@@ -3,16 +3,12 @@
     font-size: 30pt;
 }
 
-.navbar-nav {
-    float:none;
-    margin:0 auto;
-    display: block;
-    text-align: center;
-}
-
-.navbar-nav > li {
+.navbar .navbar-nav {
     display: inline-block;
-    float:none;
+    float: none;
+}
+.navbar .navbar-collapse {
+    text-align: center;
 }
 li {
 border-right:1px solid #bbb;
