@@ -18,9 +18,3 @@ font-weight:bold;
 li:last-child {
     border-right:none;
 }
-
-@media (min-width:768px) { /* don't break navbar on small screen */
-    #nav_center {
-        width: 700px /* need to found your width according to your entry*/
-    }
-}
