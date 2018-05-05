@@ -4,13 +4,13 @@
 }
 
 @media screen and (min-width:768px){
-.navbar-nav {
-    text-align: center;
+.navbar.navbar-nav {
+    display:inline-block;
     float: none;
 }
-.navbar-nav li{
-    display: inline-block;
-    float:none;
+.navbaar.navbar-collapse{
+    text-align:center;
 }
+
 }
 
