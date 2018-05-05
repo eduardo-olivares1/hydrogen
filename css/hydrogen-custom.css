@@ -3,17 +3,15 @@
     font-size: 30pt;
 }
 
-.nav.navbar-nav {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-}
-@media  {
-	.navbar-nav {
-		float: none;
-	}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
 }
 
+.navbar .navbar-collapse {
+  text-align: center;
+}
 li {
 border-right:1px solid #bbb;
 font-weight:bold;
