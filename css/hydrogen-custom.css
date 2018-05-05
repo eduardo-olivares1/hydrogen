@@ -3,17 +3,9 @@
     font-size: 30pt;
 }
 
-.navbar-nav {
-    width: 100%;
-    text-align: center;
-
->li {
-border-right:1px solid #bbb;
-font-weight:bold;
-float: none;
-display: inline-block;
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
 }
 
-li:last-child {
-    border-right:none;
-}
