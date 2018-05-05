@@ -3,6 +3,17 @@
     font-size: 30pt;
 }
 
+.nav.navbar-nav {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+@media (min-width: 768px) {
+	.navbar-nav {
+		float: none;
+	}
+}
+
 li {
 border-right:1px solid #bbb;
 font-weight:bold;
