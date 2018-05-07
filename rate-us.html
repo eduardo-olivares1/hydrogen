@@ -66,7 +66,7 @@
 
 	<div class="container-contact100">
 		<div class="wrap-contact100">
-			<form class="contact100-form validate-form">
+			<form class="contact100-form validate-form" action ="FeedbackSaveAndDisplay.php">
 				<span class="contact100-form-title">
 					Contact Us
 				</span>
@@ -88,9 +88,7 @@
 
 				<div class="wrap-input100 input100-select bg1">
 					<span class="label-input100">Needed Services *</span>
-                    <input class="input100" type="text" name="Needed Services" placeholder="Enter Needed Services here...">
-					<div>
-					</div>
+                    <input class="input100" type="text" name="service" placeholder="Enter Needed Services here...">
 				</div>
 
 
@@ -98,6 +96,11 @@
 				<div class="wrap-input100 validate-input bg0 rs1-alert-validate" data-validate = "Please Type Your Message">
 					<span class="label-input100">Message</span>
 					<textarea class="input100" name="message" placeholder="Your message here..."></textarea>
+				</div>
+
+                <div class="wrap-input100 input100-select bg1">
+					<span class="label-input100">Score</span>
+                    <input class="input100" type="text" name="score" placeholder="Enter Needed Services here...">
 				</div>
 
 				<div class="container-contact100-form-btn">
