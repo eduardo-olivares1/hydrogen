@@ -1,29 +1,34 @@
 <html xmlns = "http://www.w3.org/1999/xhtml">
 <head>
-    <title>feedback List</title>
-    <style type = "text/css">
-        body {
-            font-family:tahoma, helvetica, arial, sans-serif
-        }
-        table,tr,td,th {
-            text-align:center;
-            font-size: .9em;
-            border:3px groove;
-            padding:5px;
-            background-color:#ddddd;
-        }
-    </style>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Feedback List</title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom CSS -->
+<link href="css/hydrogen-custom.css" rel="stylesheet">
+<!-- Custom Font -->
+<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
 </head>
 <body>
-
+<div class="container">
     <p style = "font-size:2em;">feedback List</p>
-    <table>
+    <table class="table table-striped">
         <thead>
             <tr>
-                <th style = "width:100px;"> Name </th>
-                <th style = "width:200px;"> Feedback </th>
-                <th style = "width:50px;"> Score </th>
-                <th style = "width:100px;"> Service</th>
+                <th> Name </th>
+                <th> Feedback </th>
+                <th> Score </th>
+                <th> Service</th>
             </tr>
         </thead>
         <tbody>
@@ -64,5 +69,6 @@
             ?>
         </tbody>
     </table>
+    </div>
 </body>
     </html>
