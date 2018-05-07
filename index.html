@@ -62,9 +62,10 @@
     <p class="text-center"><a class="btn btn-primary" href="#" role="button">Learn More</a></p>
 </div>
 
-
+<hr>
 
 <!-- Travis -->
+
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-5 col-sm-5 col-xs-5">
@@ -73,37 +74,50 @@
         <div class="col-md-7 col-sm-7 ">
             <h2 class= "text-center">What we do</h2>
             <p class = "fixed-center">Hydrogen undertakes project management, document management, translation, interpreting, and content related services in a multitude of languages for all industries. We truly understand the importance for your documentation and speech to be translated consistently and efficiently. We are also aware of the complexity of each individual translation, and the need to get it right first time. Hydrogen boasts a 99.99% accuarcy for our translations as well as unparalled customer service. For any questions or concerns regarding translation of a specific dialect, contact our team and we will happily assit you.</p>
+<br><br><br><br>
+<div class="container">
+
+    <div class="row" style="padding-top: 4%;">
+        <div class="media">
+            <div class="media-left">
+            <img id = "talking" src="images/image.png">
+            </div>
+            <div class="media-body">
+            <h3 class="media-heading text-center"> Why Hydrogen?</h3>
+                <p class="text-right"> Hyd</p>
+            </div>
+
         </div>
     </div>
 </div>
 
 <!-- Eduardo -->
-<div class="container-fluid">
+<hr>
+<div class="container">
     <div class="row">
-        <h1 class= "text-center">What are you waiting for?</h1>
+        <h1 class= "text-center">Time is running out...</h1>
     </div>
+
+        <div id ="time" class="row">
+    <!-- Timer Function-->
+    </div>
+
+    <div id="bad-count" class="row">
+    <!-- Counter Function -->
+    </div>
+
     <div class="row" style="padding-top: 2%">
-    <p> An inccorect translation is make every 30 seconds. A bad translation can damage your company's image, result in legal fees, and stunt new customer growth. </p>
+    <p class="text-left"> An inccorect translation is make every 5 seconds. A bad translation can damage your company's image, result in legal fees, and stunt new customer growth. </p>
+    </div>
+
+
+    <div class="row">
+    <p class="text-center" style="padding-top: 2% ; padding-bottom: 1%;"><a class="btn btn-primary btn-lg" href="#" role="button">Get a Quote </a></p>
     </div>
 </div>
 
 
-<script>
-/*
-var printTime = setInterval(Timer, 1000);
-var index = 0;
-
-function Timer() {
-    var d = new Date();
-    document.getElementById("time").innerHTML = "<h1>" + d.toLocaleDateString() + " "  + d.toLocaleTimeString() + "</h1>";
-    var s = d.getSeconds();
-    if (s % 5 == 0 || s ==  0 ){
-    index += 1
-    document.getElementById("seconds").innerHTML = index;
-		}
-        }
-*/
-</script>
+<script src="js/date-time.js"></script>
 
  
 <script src="http://code.jquery.com/jquery-latest.js"></script>
