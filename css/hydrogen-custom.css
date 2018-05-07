@@ -3,6 +3,10 @@ body{
 
 }
 
+img {
+    max-width: 100%;
+}
+
 
 #nav-title{
     color:white;
@@ -41,6 +45,8 @@ body{
     background-size: cover;
     color:white;
 }
+<<<<<<< HEAD
+=======
 
 
 #talking{
@@ -49,3 +55,4 @@ body{
 }
 
 
+>>>>>>> origin/master
