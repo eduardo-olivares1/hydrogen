@@ -1,7 +1,22 @@
+body{
+    font-family: 'Merriweather', serif;
+
+}
+
+
 #nav-title{
     color:white;
     font-size: 30pt;
 }
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
 
 @media screen and (min-width:768px){
 .navbar .navbar-nav {
@@ -13,4 +28,24 @@
 }
 
 }
+
+
+.jumbotron {
+    background-image: url("/images/two-people-talking-during-business-meeting-at-cafe_bkst5zp4g_thumbnail-full01.png");
+    background-color: #17234E;
+    margin-bottom: 0;`enter code here`
+    min-height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color:white;
+}
+
+
+#talking{
+ height: 400px;
+ width: auto;
+}
+
 

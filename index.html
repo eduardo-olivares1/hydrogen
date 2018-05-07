@@ -10,6 +10,8 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <!-- Custom CSS -->
 <link href="css/hydrogen-custom.css" rel="stylesheet">
+<!-- Custom Font -->
+<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -21,7 +23,7 @@
 <body>
     
 <!-- Navigation bar -->
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-static-top">
     
   <div class="container-fluid">
     <div class="navbar-header">
@@ -51,77 +53,59 @@
       
   </div>
 </nav>
-<!-- Hero Image -->
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body, html {
-    height: 100%;
-    margin: 0;
-}
 
-.hero-image {
-  background-image: url("http://www.adrikaservices.com/sites/default/files/language-translations_0.jpg");
-  height: 50%;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
-
-.hero-text button {
-  border: outset;
-  outline: 0;
-  display: inline-block;
-  padding: 5px 25px;
-  color: black;
-  background-color: ghostwhite;
-  text-align: center;
-  cursor: pointer;
-}
-
-.hero-text button:hover {
-  background-color: #eaeaea;
-  color: white;
-}
-</style>
-</head>
-
-<body>
-<div class="hero-image">
-  <div class="hero-text">
-    <h1 style="color:gloralwhite">Professional Translation Services</h1>
-    <h6 style="color:floralwhite"> TRANSLATION, INTERPRETATION, & STAFFING SOLUTION </h6><br><br>
-    <button>ABOUT</button>
-  </div>
+<div class="jumbotron">
+    <h1 class="text-center"><strong>Hydrogen</strong></h1>
+    <h3 class="text-center">Professional translation services</h3>
+    <p class="text-center"><em>Ensuring cross-cultural success</em></p>
+    <p class="text-center"><a class="btn btn-primary" href="#" role="button">Learn More</a></p>
 </div>
 
-<script>
-/*
-var printTime = setInterval(Timer, 1000);
-var index = 0;
+<hr>
 
-function Timer() {
-    var d = new Date();
-    document.getElementById("time").innerHTML = "<h1>" + d.toLocaleDateString() + " "  + d.toLocaleTimeString() + "</h1>";
-    var s = d.getSeconds();
-    if (s % 5 == 0 || s ==  0 ){
-    index += 1
-    document.getElementById("seconds").innerHTML = index;
-		}
-        }
-*/
-</script>
+<!-- Travis -->
+<div class="container">
+
+    <div class="row" style="padding-top: 4%;">
+        <div class="media">
+            <div class="media-left">
+            <img id = "talking" src="images/image.png">
+            </div>
+            <div class="media-body">
+            <h3 class="media-heading text-center"> Why Hydrogen?</h3>
+                <p class="text-right"> Hyd</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Eduardo -->
+<hr>
+<div class="container">
+    <div class="row">
+        <h1 class= "text-center">Time is running out...</h1>
+    </div>
+
+        <div id ="time" class="row">
+    <!-- Timer Function-->
+    </div>
+
+    <div id="bad-count" class="row">
+    <!-- Counter Function -->
+    </div>
+
+    <div class="row" style="padding-top: 2%">
+    <p class="text-left"> An inccorect translation is make every 5 seconds. A bad translation can damage your company's image, result in legal fees, and stunt new customer growth. </p>
+    </div>
+
+
+    <div class="row">
+    <p class="text-center" style="padding-top: 2% ; padding-bottom: 1%;"><a class="btn btn-primary btn-lg" href="#" role="button">Get a Quote </a></p>
+    </div>
+</div>
+
+
+<script src="js/date-time.js"></script>
 
  
 <script src="http://code.jquery.com/jquery-latest.js"></script>
