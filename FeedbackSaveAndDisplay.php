@@ -37,11 +37,11 @@
             <?php
             error_reporting(0);
             $name=$_POST['name'];
-            $feedback=$_POST['email'];
-            $score=$_POST['phone'];
+            $email=$_POST['email'];
+            $phone=$_POST['phone'];
             $service=$_POST['service'];
-            $service=$_POST['message'];
-            $service=$_POST['score'];
+            $message=$_POST['message'];
+            $score=$_POST['score'];
 
 
             $connectionstring = mysql_connect('localhost', 'root', '' )
