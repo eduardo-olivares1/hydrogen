@@ -45,16 +45,17 @@ img {
     background-size: cover;
     color:white;
 }
-<<<<<<< HEAD
-=======
+
 
 
 #talking{
- height: 400px;
+ height: 500px;
  width: auto;
+ max-width: 100%;
 }
 
 
+<<<<<<< HEAD
 >>>>>>> origin/master
 
 <
@@ -709,4 +710,6 @@ textarea.input100 {
 
 
 
+=======
+>>>>>>> origin/master
 
