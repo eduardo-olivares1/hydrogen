@@ -63,7 +63,7 @@
                 echo "</tr>\n";
                 }
 
-                $insert = "INSERT INTO `feedback`(`Name`, `Email`, `Phone`, `Service`, `Message`,`Score`)VALUES('$name','$email','$phone','$service', '$message', '$score')";
+                $insert = "INSERT INTO `feedback`(`Name`, `Email`, `Phone`, `Service`, `Message`,`Score`)VALUES('$name','$email','$phone','$service','$message','$score')";
 
                 $result = mysql_query($insert)
                 	or die('Could not insert into database:' . mysql_error());
