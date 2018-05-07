@@ -26,9 +26,11 @@
         <thead>
             <tr>
                 <th> Name </th>
-                <th> Feedback </th>
+                <th> Email </th>
+                <th> Phone </th>
+                <th> Service </th>
+                <th> Message </th>
                 <th> Score </th>
-                <th> Service</th>
             </tr>
         </thead>
         <tbody>
@@ -38,6 +40,8 @@
             $feedback=$_POST['feedback'];
             $score=$_POST['score'];
             $service=$_POST['service'];
+            $service=$_POST['phone'];
+            $service=$_POST['email'];
 
 
             $connectionstring = mysql_connect('localhost', 'root', '' )
@@ -58,7 +62,7 @@
                 echo "</tr>\n";
                 }
 
-                $insert = "INSERT INTO `feedback`(`Name`, `Feedback`, `Score`, `Service`)VALUES('$name','$feedback','$score','$service')";
+                $insert = "INSERT INTO `feedback`(`Name`, `Email`, `Phone`, `Service`, `Message`,`Score`)VALUES('$name','$email','$phone','$service', '$message', '$score')";
 
                 $result = mysql_query($insert)
                 	or die('Could not insert into database:' . mysql_error());
