@@ -37,17 +37,18 @@
             <?php
             error_reporting(0);
             $name=$_POST['name'];
-            $feedback=$_POST['feedback'];
-            $score=$_POST['score'];
+            $feedback=$_POST['email'];
+            $score=$_POST['phone'];
             $service=$_POST['service'];
-            $service=$_POST['phone'];
-            $service=$_POST['email'];
+            $service=$_POST['message'];
+            $service=$_POST['score'];
 
 
             $connectionstring = mysql_connect('localhost', 'root', '' )
             	or die('Could not connect: ' . mysql_error());
            	mysql_select_db('feedback')
            		or die('Could not connect: ' . mysql_error());
+
            	$query='SELECT * FROM `feedback` WHERE 1';
 
             $queryexe=mysql_query($query)
