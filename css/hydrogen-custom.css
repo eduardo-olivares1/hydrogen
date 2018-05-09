@@ -6,7 +6,11 @@ body{
 img {
     max-width: 100%;
 }
+.col-sm-4 {
+margin-bottom:50px;
+}
 .country-flag {
+
     width:200px;
     height:auto;
 }
