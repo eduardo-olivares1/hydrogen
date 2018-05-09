@@ -6,7 +6,10 @@ body{
 img {
     max-width: 100%;
 }
-
+.country-flag {
+    width:200px;
+    height:auto;
+}
 
 #nav-title{
     color:white;
