@@ -49,17 +49,12 @@ img {
 
 
 #talking{
- height: 500px;
+ height: 300px;
  width: auto;
  max-width: 100%;
 }
 
 
-<<<<<<< HEAD
->>>>>>> origin/master
-
-
-
-=======
->>>>>>> origin/master
-
+.img-center {
+	margin: 0 auto;
+}
