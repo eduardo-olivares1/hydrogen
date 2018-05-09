@@ -70,6 +70,9 @@
                 mysql_free_result($queryexe)
                 	or die('Could not free result:' . mysql_error());
 
+                mysql_close($connectionstring)
+                	or die ('Could not close database:' . mysql_error());
+
             ?>
         </tbody>
     </table>
