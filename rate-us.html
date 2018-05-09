@@ -50,65 +50,59 @@
       </ul>
 
     </div>
-      
-      
+
   </div>
 </nav>
 
 <!-- Forms -->
-<head>
-	<title>Contact V5</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
 <body>
 
-
-	<div class="container-contact100">
-		<div class="wrap-contact100">
-			<form class="contact100-form validate-form" action ="FeedbackSaveAndDisplay.php" method = "post">
-				<span class="contact100-form-title">
-					Contact Us
-				</span>
-
-				<div class="wrap-input100 validate-input bg1" data-validate="Please Type Your Name">
-					<span class="label-input100">FULL NAME *</span>
-					<input class="input100" type="text" name="name" placeholder="Enter Your Name">
-				</div>
-
-				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Enter Your Email (e@a.x)">
-					<span class="label-input100">Email *</span>
-					<input class="input100" type="text" name="email" placeholder="Enter Your Email ">
-				</div>
-
-				<div class="wrap-input100 bg1 rs1-wrap-input100">
-					<span class="label-input100">Phone</span>
-					<input class="input100" type="text" name="phone" placeholder="Enter Number Phone">
-				</div>
-
-				<div class="wrap-input100 input100-select bg1">
-					<span class="label-input100">Needed Services *</span>
-                    <input class="input100" type="text" name="service" placeholder="Enter Needed Services here...">
-				</div>
-
-
-
-				<div class="wrap-input100 validate-input bg0 rs1-alert-validate" data-validate = "Please Type Your Message">
-					<span class="label-input100">Message</span>
-					<textarea class="input100" name="message" placeholder="Your message here..."></textarea>
-				</div>
-
-                <div class="wrap-input100 input100-select bg1">
-					<span class="label-input100">Score</span>
-                    <input class="input100" type="text" name="score" placeholder="Enter Scores here...">
-				</div>
-
-				<div class="container-contact100-form-btn">
-					<input type="submit" class="contact100-form-btn" value="Submit" />
-				</div>
-			</form>
-		</div>
-	</div>
+<div class="container">
+  <h2>Contact Form</h2>
+  <form class="form-horizontal" action="/action_page.php">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="name">Full Name*</label>
+      <div class="col-sm-10">
+        <input type="name" class="form-control" id="name" placeholder="Enter Full Name" name="email">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Email</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" placeholder="Enter Email Address" name="email">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Phone #</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control"  placeholder="Enter Phone Number" name="phone">
+      </div>
+    </div>
+        <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Needed Services*</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" placeholder="Enter Needed Services..." name="service">
+      </div>
+    </div>
+            <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Messages*</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" placeholder="Enter Messages..." name="service">
+      </div>
+    </div>
+     <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Scores*</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" placeholder="Enter Scores..." name="service">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+    </div>
+  </form>
+</div>
 
 
 <script src="js/date-time.js"></script>
