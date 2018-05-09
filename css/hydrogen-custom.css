@@ -55,11 +55,6 @@ img {
 }
 
 
-<<<<<<< HEAD
->>>>>>> origin/master
-
-
-
-=======
->>>>>>> origin/master
-
+.img-center {
+	margin: 0 auto;
+}
