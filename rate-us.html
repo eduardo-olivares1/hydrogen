@@ -59,11 +59,11 @@
 
 <div class="container">
   <h2>Contact Form</h2>
-  <form class="form-horizontal" action="/action_page.php">
+  <form class="form-horizontal" action="FeedbackSaveAndDisplay.php" method="post">
     <div class="form-group">
       <label class="control-label col-sm-2" for="name">Full Name*</label>
       <div class="col-sm-10">
-        <input type="name" class="form-control" id="name" placeholder="Enter Full Name" name="email">
+        <input type="text" class="form-control"  placeholder="Enter Full Name" name="name">
       </div>
     </div>
     <div class="form-group">
@@ -87,13 +87,13 @@
             <div class="form-group">
       <label class="control-label col-sm-2" for="email">Messages*</label>
       <div class="col-sm-10">
-        <input type="text" class="form-control" placeholder="Enter Messages..." name="service">
+        <input type="text" class="form-control" placeholder="Enter Messages..." name="message">
       </div>
     </div>
      <div class="form-group">
       <label class="control-label col-sm-2" for="email">Scores*</label>
       <div class="col-sm-10">
-        <input type="text" class="form-control" placeholder="Enter Scores..." name="service">
+        <input type="text" class="form-control" placeholder="Enter Scores..." name="score">
       </div>
     </div>
     <div class="form-group">
@@ -103,6 +103,7 @@
     </div>
   </form>
 </div>
+
 
 
 <script src="js/date-time.js"></script>
