@@ -36,6 +36,7 @@ margin-bottom:50px;
 
 .navbar-inverse .navbar-nav>li>a {
     color: white;
+    font-size: 18px;
 }
 
 
@@ -51,7 +52,7 @@ margin-bottom:50px;
 }
 
 
-.jumbotron {
+.hero-jumbotron {
     background-image: url("/images/two-people-talking-during-business-meeting-at-cafe_bkst5zp4g_thumbnail-full01.png");
     background-color: #17234E;
     margin-bottom: 0;`enter code here`
