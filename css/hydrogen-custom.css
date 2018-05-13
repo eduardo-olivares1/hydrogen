@@ -104,3 +104,11 @@ margin-bottom:50px;
   text-align: left;
   vertical-align: middle;
 }
+
+
+.modal-image{
+    width: 200px;
+    height: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
