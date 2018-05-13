@@ -3,7 +3,7 @@ var index = 0;
 
 function Timer() {
     var d = new Date();
-    document.getElementById("time").innerHTML = "<div class='col-md-12'><h1 class='text-center'>" + d.toLocaleDateString() + " "  + d.toLocaleTimeString() + "</h1></div>";
+    document.getElementById("time").innerHTML = "<div class='col-md-12'><h2 class='text-center'><strong>" + d.toLocaleDateString() + " "  + d.toLocaleTimeString() + "</strong></h2></div>";
     var s = d.getSeconds();
     if (s % 5 == 0 || s ==  0 ){
     index += 1
