@@ -6,6 +6,16 @@ body{
 img {
     max-width: 100%;
 }
+
+h2 {
+    font-weight:bold;
+    padding-bottom:2%;
+}
+
+h3 {
+    font-style:italic;
+}
+
 .col-sm-4 {
 margin-bottom:50px;
 }
