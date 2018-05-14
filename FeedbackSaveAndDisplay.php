@@ -150,7 +150,6 @@
     </div>
 
     </div>
-<script src="js/date-time.js"></script>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script src="js/bootstrap.min.js"></script>
 </body>
