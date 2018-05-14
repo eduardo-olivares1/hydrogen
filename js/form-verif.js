@@ -5,17 +5,16 @@
             return false;
         }
 
-        var get_year = document.forms["form1"]["age"].value;
+        var year = document.forms["form1"]["age"].value;
+        var day = new Date();
         var currentYear = day.getFullYear();
-        var bornYear = parseInt(get_year);
+        var bornYear = parseInt(year);
         var age = currentYear - bornYear;
         if (age < 18) {
             alert("You are not eligible to give a feedback");
             return false;
         }
-        else {
-            return true;
-        }
+
 
         var email = document.forms["form1"]["email"].value;
         var atpos = email.indexOf("@");
