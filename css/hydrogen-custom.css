@@ -125,7 +125,10 @@ margin-bottom:50px;
 
 
 .slider-size {
+
+    height: 350px;
     background:url('https://topbackgroundwallpaper.com/wp-content/uploads/2018/01/matte-black-wallpaper-218569.jpg') center center;
+    background-size: cover;
 
 }
 
