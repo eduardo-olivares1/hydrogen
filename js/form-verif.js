@@ -4,6 +4,19 @@
             alert("Please enter your name");
             return false;
         }
+
+        var get_year = document.forms["form1"]["age"].value;
+        var currentYear = day.getFullYear();
+        var bornYear = parseInt(get_year);
+        var age = currentYear - bornYear;
+        if (age < 18) {
+            alert("You are not eligible to give a feedback");
+            return false;
+        }
+        else {
+            return true;
+        }
+
         var email = document.forms["form1"]["email"].value;
         var atpos = email.indexOf("@");
         var dotpos = email.lastIndexOf(".");
