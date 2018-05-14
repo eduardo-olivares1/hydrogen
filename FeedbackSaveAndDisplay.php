@@ -21,6 +21,7 @@
 
 </head>
 <body>
+
 <!-- Navigation bar -->
 <nav class="navbar navbar-inverse navbar-static-top">
 
@@ -48,24 +49,12 @@
       <li><a href="rate-us.html">Feedback</a></li>
       </ul>
     </div>
-
-
   </div>
 </nav>
-<div class="container" style="padding-top:3%">
-    <p style = "font-size:2em;">Recent Feedback</p>
-    <table class="table table-striped">
-        <thead>
-            <tr>
-                <th> Name </th>
-                <th> Email </th>
-                <th> Phone </th>
-                <th> Service </th>
-                <th> Message </th>
-                <th> Score </th>
-            </tr>
-        </thead>
-        <tbody>
+
+  <section class="carousel-default">
+    <div id="carousel-fixed-height" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner" role="listbox">
             <?php
             error_reporting(0);
             $name=$_POST['name'];
@@ -85,13 +74,38 @@
             $queryexe=mysql_query($query)
             	or die('Could not query database:' . mysql_error());
 
+            $i = 0;
              while($dataArray = mysql_fetch_array($queryexe, MYSQL_ASSOC))
              	{
-                echo "<tr>\n";
-                foreach ($dataArray as $col_value) {
-                echo "\t<td>$col_value</td>\n";
+
+                if ($i ==0){
+                    echo "<div class='item active'>
+          <div class='slider-size'>
+            <div class='carousel-caption'>
+                <blockquote>".$dataArray["Message"]."</blockquote>
+                <cite>-".$dataArray["Name"]."</cite>
+                <br>
+                <cite>Score Given: ".$dataArray["Score"]."</cite>
+                <br>
+                <cite>Service Used: ".$dataArray["Service"]."</cite>
+            </div>
+          </div>
+        </div>";
+                }else{
+                    echo "<div class='item'>
+          <div class='slider-size'>
+            <div class='carousel-caption'>
+                <blockquote>".$dataArray["Message"]."</blockquote>
+                <cite>-".$dataArray["Name"]."</cite>
+                <br>
+                <cite>Score Given: ".$dataArray["Score"]."</cite>
+                <br>
+                <cite>Service Used: ".$dataArray["Service"]."</cite>
+            </div>
+          </div>
+        </div>";;
                 }
-                echo "</tr>\n";
+                  $i++;
                 }
 
                 $insert = "INSERT INTO `feedback`(`Name`, `Email`, `Phone`, `Service`, `Message`,`Score`)VALUES('$name','$email','$phone','$service','$message','$score')";
@@ -104,16 +118,40 @@
 
                 mysql_close($connectionstring)
                 	or die ('Could not close database:' . mysql_error());
+    ?>
+      </div>
+      <a class="left carousel-control" href="#carousel-fixed-height" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-fixed-height" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
 
-            ?>
-        </tbody>
-    </table>
+<div class="container" style="padding-top:3%">
+    <div class="row">
+                   <div class="col-lg-12">
+                <h3 class="text-center">Want to say More? Contact us!</h3>
+            </div>
+
     </div>
 
+
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h5>5555 Fake Street</h5>
+            <h5>San Francisco, California 1234</h5>
+            <h5>Phone:<a href="tel:5555555555"> (555)-555-5555</a></h5>
+            <h5>Email:<a href="mailto:fake@fakeemail.com"> fake@fakeemail.com</a></h5>
+        </div>
+    </div>
+
+    </div>
 <script src="js/date-time.js"></script>
-
-
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script src="js/bootstrap.min.js"></script>
 </body>
-    </html>
+</html>
