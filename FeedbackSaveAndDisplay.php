@@ -134,7 +134,7 @@
 <div class="container" style="padding-top:3%">
     <div class="row">
                    <div class="col-lg-12">
-                <h3 class="text-center">Want to say More? Contact us!</h3>
+                <h3 class="text-center">Want to say more? Contact us!</h3>
             </div>
 
     </div>
